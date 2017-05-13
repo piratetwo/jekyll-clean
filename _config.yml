@@ -4,16 +4,16 @@ name: My blog
 description: Live for Fun and Fun for life!
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://piratetwo.github.io
+url: https://piratetwo.github.io/jekyll-clean
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+baseurl: /jekyll-clean
 
 # This can be '' to hide the Github nav button
-github: ''
+github: 'piratetwo/jekyll-clean'
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
@@ -27,7 +27,7 @@ comments: true
 isso: ''
 
 # Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
-disqus: ''
+disqus: 'piratetwo'
 
 permalink: /:year/:month/:title
 paginate: 3
