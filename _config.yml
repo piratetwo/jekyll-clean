@@ -34,6 +34,16 @@ paginate: 3
 
 highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'LICENSE']
