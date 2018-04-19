@@ -7,5 +7,5 @@ comments: false
 
 ## Vector Operations
 Level_1 Basic Linear Algebraic Subroutines
-+ _AXPY
-+ _DOT
++ _AXPY: y=y+ax
++ _DOT: $$s=x^Ty$$
