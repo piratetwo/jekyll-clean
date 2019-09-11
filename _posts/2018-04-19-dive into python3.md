@@ -23,7 +23,8 @@
 + x{n,m} 匹配n到m个x，至少n个，不能超过m个
 + (a|b|c) 匹配单独的任意一个a或者b或者c
 + (x) 这是一个组，它会记忆它匹配到的字符串。你可以用re.search返回的匹配对象的groups()函数来获取到匹配的值
-```python
+ 
+ ```python
 >>> pattern = '''
     ^                   # beginning of string
     M{0,3}              # thousands - 0 to 3 Ms
